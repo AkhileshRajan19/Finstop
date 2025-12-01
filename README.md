@@ -1,0 +1,2 @@
+# Finstop
+Financial Analysis Platform
