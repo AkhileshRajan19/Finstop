@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+pydantic
+pandas
+pdfplumber
+python-multipart
+passlib[bcrypt]
+python-jose
+stripe
+openai
+numpy
