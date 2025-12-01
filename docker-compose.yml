@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  backend:
+    build: ./docker/backend
+    ports:
+      - "8000:8000"
+    environment:
+      - FINSTOP_SECRET=replace-me
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - STRIPE_API_KEY=${STRIPE_API_KEY}
+    volumes:
+      - ./backend:/app
